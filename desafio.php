@@ -20,5 +20,5 @@ for ($i=1; $i <= 100; $i++) {
         $numeroVez = str_replace('BHUR IT','BHUR TI',$numeroVez);
     }
 
-    echo "$i - $numeroVez"."<br>";
+    echo $numeroVez."<br>";
 }
